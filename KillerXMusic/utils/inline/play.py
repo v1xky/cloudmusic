@@ -45,10 +45,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_10"], url=f"{SUPPORT_CHANNEL}",
+                text=_["ꜱᴜᴘᴘᴏʀᴛꜱ 🤍"], url=f"{SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
+                text=_["🔹ᴍᴇɴᴜ🔹"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
         ],
@@ -72,10 +72,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_10"], url=f"{SUPPORT_CHANNEL}",
+                text=_["ꜱᴜᴘᴘᴏʀᴛꜱ 🤍"], url=f"{SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
+                text=_["🔹ᴍᴇɴᴜ🔹"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
         ],
@@ -95,10 +95,10 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_10"], url=f"{SUPPORT_CHANNEL}",
+                text=_["ꜱᴜᴘᴘᴏʀᴛꜱ 🤍"], url=f"{SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
+                text=_["🔹ᴍᴇɴᴜ🔹"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
         ],
@@ -115,10 +115,10 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_10"], url=f"{SUPPORT_CHANNEL}",
+                text=_["ꜱᴜᴘᴘᴏʀᴛꜱ 🤍"], url=f"{SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
+                text=_["🔹ᴍᴇɴᴜ🔹"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
         ],
@@ -138,11 +138,11 @@ def track_markup(_, videoid, user_id, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_1"],
+                text=_["🎵 ᴘʟᴀʏ ᴀᴜᴅɪᴏ"],
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["🎥 ᴘʟᴀʏ ᴠɪᴅᴇᴏ"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
         ],
@@ -160,11 +160,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_1"],
+                text=_["🎵 ᴘʟᴀʏ ᴀᴜᴅɪᴏ"],
                 callback_data=f"KillerXPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["🎥 ᴘʟᴀʏ ᴠɪᴅᴇᴏ"],
                 callback_data=f"KillerXPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
@@ -185,7 +185,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_3"],
+                text=_["🏮 ꜱᴛᴀʀᴛ ʟɪᴠᴇ ꜱᴛʀᴇᴀᴍ"],
                 callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
@@ -207,11 +207,11 @@ def slider_markup(
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["P_B_1"],
+                text=_["🎵 ᴘʟᴀʏ ᴀᴜᴅɪᴏ"],
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
-                text=_["P_B_2"],
+                text=_["🎥 ᴘʟᴀʏ ᴠɪᴅᴇᴏ"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
         ],
