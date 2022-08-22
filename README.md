@@ -25,7 +25,7 @@ KɪʟʟᴇʀXMᴜsɪᴄ Pʀᴏᴊᴇᴄᴛs
 
 # Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/randycyber/random-2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/v1xky/cloudmusic)
 
 # Cᴏᴅᴇ Exᴀᴍᴘʟᴇ 
 > pyrogram Links `https://docs.pyrogram.org`
