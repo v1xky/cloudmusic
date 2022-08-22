@@ -18,17 +18,17 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("8913469", ""))
+API_HASH = getenv("b3f7cb5deefe1cf33bebee944915061b")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("2124064704:AAG-_oWI2-08SAgg1GbrU45OayzAHepIdAk")
 
 # BOTFATHER WITHOUT @
-BOT_USERNAME = getenv("BOT_USERNAME")
+BOT_USERNAME = getenv("AngelxRobot")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://vicky007:bickydana@cluster0.vmlde.mongodb.net/myFirstDatabase?", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -41,21 +41,21 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("-1001782769811", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("ANGELMUSIC")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("5486269467", "").split())
 )  # Input type must be interger
 
 # DON'T REMOVED HERE
 # YOUR FORK KANGER
-OWNER_ID.append(1191668125)
-OWNER_ID.append(844432220)
-OWNER_ID.append(1939846254)
+OWNER_ID.append(5486269467)
+OWNER_ID.append(2005952005)
+OWNER_ID.append(2013983209)
 
 # DON'T REMOVE ID // GBAN
 
@@ -65,7 +65,7 @@ OWNER_ID.append(1939846254)
 # LOG_CHAT = int(os.getenv("LOG_CHAT"))
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("cc05953e-c864-4569-a479-12791ae7395b")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -85,10 +85,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "angel_updates", None
 )   # https://t.me/rendyprojects
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "angelsupports", None
 )  # Example:- https://t.me/  #required
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -155,7 +155,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQB9SE9gBusBAORmJJzdhxqTum7MdnV8CMUcZNcHHeisgAAnVGuZ9HeEgaAMrEoSkXIBy9SkBASzKa4w27U0Yj2VmzfMd8qb24E01oKsAD5lFUSLaX_GB57QECJCHs40db72m1hYOJEhF4x4XuSL7L1AqY7dBZ2r0_7ntsb2tQUELub5Lx4nzYd_wXbnV2nwS4-bL9t5kjp2tHCiaeoAn6DR23-Ab3BGzgDIi3G5RJ-d3bxwVeDQ_LVdCmMWjHuuOjV02Ix1kNEGAanB7oof70T3LDV1VcVxOzoG3ebbB8qeYVxdMA7vojIIXRDEZMCW1mwDpsVk1v6OyFb2k7qiO5P6eArx6QA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
